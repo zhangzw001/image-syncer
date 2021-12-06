@@ -1,13 +1,10 @@
 auth:
-  registry.hub.docker.com:
+  registry.cn-hangzhou.aliyuncs.com:
     username: USERNAME
     password: PASSWORD
 images:
-  k8s.gcr.io/sig-storage/csi-attacher: willdockerhub/csi-attacher
-  k8s.gcr.io/sig-storage/csi-provisioner: willdockerhub/csi-provisioner
-  k8s.gcr.io/sig-storage/csi-node-driver-registrar: willdockerhub/csi-node-driver-registrar
-  k8s.gcr.io/sig-storage/csi-resizer: willdockerhub/csi-resizer
-  k8s.gcr.io/sig-storage/csi-snapshotter: willdockerhub/csi-snapshotter
+  k8s.gcr.io/ingress-nginx/controller: traefik/ingress-nginx
+
   
   
   
